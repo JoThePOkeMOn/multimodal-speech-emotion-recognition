@@ -242,7 +242,7 @@ Results saved in `Results/plots/` directory:
 
 ## 📚 References
 
-- **TESS Dataset:** https://tspace.library.utoronto.ca/handle/1807/24612
+- **TESS Dataset:** https://www.kaggle.com/datasets/ejlok1/toronto-emotional-speech-set-tess
 - **PyTorch:** https://pytorch.org/
 - **Transformers (HuggingFace):** https://huggingface.co/transformers/
 - **Librosa:** https://librosa.org/
