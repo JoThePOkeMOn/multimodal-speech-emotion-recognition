@@ -146,7 +146,6 @@ pip install -r requirements.txt
 - **Scikit-learn** 1.3.1 - ML metrics & evaluation
 - **Seaborn & Matplotlib** - Data visualization
 
-See `INSTALLATION_GUIDE.md` for detailed package information.
 
 ---
 
@@ -199,7 +198,7 @@ The system recognizes **7 emotions**:
 | Learning Rate | 0.001 |
 | Optimizer | Adam |
 | Loss Function | CrossEntropyLoss |
-| Epochs | 50 |
+| Epochs | 30 |
 | Early Stopping | Yes (patience=5) |
 
 ### Data Augmentation
@@ -239,37 +238,7 @@ Results saved in `Results/plots/` directory:
 
 ---
 
-## 🛠️ Troubleshooting
 
-### Issue: "CUDA out of memory"
-```bash
-# Reduce batch size in training script
-BATCH_SIZE = 8  # instead of 16
-```
-
-### Issue: "FileNotFoundError: Features not found"
-```bash
-# Run preprocessing first to generate features
-jupyter notebook data_preprocessing.ipynb
-```
-
-### Issue: "Module not found" errors
-```bash
-# Reinstall all dependencies
-pip install -r requirements.txt --upgrade
-```
-
-### Issue: Slow training on CPU
-```bash
-# Check GPU availability
-python -c "import torch; print(torch.cuda.is_available())"
-
-# Install CUDA 11.8+ if available on your system
-```
-
-See `INSTALLATION_GUIDE.md` for more troubleshooting tips.
-
----
 
 ## 📚 References
 
