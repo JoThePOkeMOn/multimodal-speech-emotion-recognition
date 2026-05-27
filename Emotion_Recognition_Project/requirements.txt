@@ -1,0 +1,43 @@
+
+
+# DEEP LEARNING FRAMEWORK
+torch==2.0.1                    # Core PyTorch (CPU & GPU compatible)
+torchvision==0.15.2            # Computer vision utilities
+torchaudio==2.0.2              # Audio processing
+
+# TRANSFORMERS & NLP
+transformers==4.31.0           # DistilRoBERTa for text encoding
+tokenizers==0.13.3             # Fast tokenization
+
+# DATA PROCESSING & NUMERICAL COMPUTING
+numpy==1.24.3                  # Numerical operations
+pandas==2.0.3                  # Data manipulation
+scipy==1.11.2                  # Scientific computing (TSNE, stats)
+
+# AUDIO PROCESSING
+librosa==0.10.0                # MFCC feature extraction, audio analysis
+soundfile==0.12.1              # Audio file I/O
+
+# MACHINE LEARNING & EVALUATION METRICS
+scikit-learn==1.3.1            # Classification metrics, confusion matrix, TSNE
+joblib==1.3.1                  # Parallel processing, model persistence
+
+# DATA VISUALIZATION
+matplotlib==3.7.2              # 2D plotting (confusion matrices, t-SNE)
+seaborn==0.12.2                # Statistical visualization (heatmaps)
+plotly==5.16.1                 # Interactive plots
+
+# JUPYTER NOTEBOOKS
+jupyter==1.0.0                 # Jupyter notebook support
+jupyterlab==4.0.4              # Jupyter Lab interface
+ipython==8.15.0                # Enhanced Python shell
+ipykernel==6.25.1              # IPython kernel for notebooks
+
+# UTILITIES
+python-dotenv==1.0.0           # Environment variable management
+tqdm==4.66.1                   # Progress bars for loops
+
+# DEVELOPMENT & CODE QUALITY
+black==23.9.1                  # Code formatter
+flake8==6.1.0                  # Code linter
+isort==5.12.0                  # Import sorting
