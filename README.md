@@ -7,17 +7,17 @@ A comprehensive emotion recognition system using the **Toronto Emotional Speech 
 ## 🏗️ Project Structure
 
 ```
-Emotion_Recognition_Project/
-├── TESS_Dataset/               # Model definitions & DataLoaders
-├── models/                     # Pipeline code (speech, text, fusion)
-│   ├── speech_pipeline/        # Audio-only pipeline
-│   ├── text_pipeline/          # Text-only pipeline
-│   └── fusion_pipeline/        # Multimodal fusion pipeline
-├── Results/                    # Confusion matrices & t-SNE plots
-├── data_preprocessing.ipynb    # Feature extraction notebook
-├── text_augmentation.py        # Augmentation generation script
-├── requirements.txt            # Project dependencies
-└── README.md                   # This file
+├── data_preprocessing.ipynb        # Feature extraction notebook
+└── Emotion_Recognition_Project/
+    ├── TESS_Dataset/               # Model definitions & DataLoaders
+    ├── models/                     # Pipeline code (speech, text, fusion)
+    │   ├── speech_pipeline/        # Audio-only pipeline
+    │   ├── text_pipeline/          # Text-only pipeline
+    │   └── fusion_pipeline/        # Multimodal fusion pipeline
+    ├── Results/                    # Confusion matrices & t-SNE plots
+    ├── text_augmentation.py        # Augmentation generation script
+    ├── requirements.txt            # Project dependencies
+    └── README.md                   # This file
 ```
 
 ---
